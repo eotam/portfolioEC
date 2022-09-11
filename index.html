@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="index.css" />
+  <title>Horn(s)Home</title>
+</head>
+
+<body>
+
+
+  <nav>
+    <img id="topImg" src="srcImg/IMG_0874.png" alt="" />
+    <div class="btns">
+      <button onclick="location.href='index.html'" class="btn">
+        Home
+      </button>
+      <button onclick="location.href='item.html'" class="btn">
+        Item's
+      </button>
+      <button onclick="location.href='other.html'" class="btn">
+        Other
+      </button>
+      <button onclick="location.href='https://www.instagram.com/'" class="iconBtn" id="insta"></button>
+      <button onclick="location.href='https://www.amazon.co.jp/'" class="iconBtn" id="amazon"></button>
+    </div>
+  </nav>
+
+  <main>
+
+    <h1 id="home">Home</h1>
+    <div class="message">
+      <div id="messageText">
+        <h2>This is real??</h2>
+        <p class="msgPolicy">
+          破損を気にするトレーニングギア・雨天では着たくないストリートウェア<br />
+          <b>それは果たして本物でしょうか？</b><br />
+          我々はReasonable＆Coolなデザイン・アイテムを提供し、すべてのアクティブな活動をサポートします。
+        </p>
+      </div>
+    </div>
+    <h1>Visual</h1>
+    <!-- Slider main container -->
+    <div class="swiper swiper1">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide swiper-slide1">
+          <img src="itemImg\horns2.JPG" alt="" />
+        </div>
+        <div class="swiper-slide swiper-slide1">
+          <img src="itemImg\IMG_0971.JPG" alt="" />
+        </div>
+        <div class="swiper-slide swiper-slide1">
+          <img src="itemImg\IMG_0974.JPG" alt="" />
+        </div>
+        <div class="swiper-slide swiper-slide1">
+          <img src="itemImg\IMG_0976.JPG" alt="" />
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <div onclick="location.href='HornsItem.html'" class="itemBtn">
+      <button class="btn">Go Item's</button>
+    </div>
+    <h1>Publication</h1>
+    <!-- Slider main container -->
+    <div class="swiper swiper2">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide swiper-slide2">
+          <img src="srcImg/charisse-kenion-gpdDhqHebho-unsplash.jpg" alt="" />
+        </div>
+        <div class="swiper-slide swiper-slide2">
+          <img src="srcImg/nmg-network-x2es3KNwt80-unsplash.jpg" alt="" />
+        </div>
+        <div class="swiper-slide swiper-slide2">
+          <img src="srcImg/rucksack-magazine-Bv5ib8g7xto-unsplash.jpg" alt="" />
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <div onclick="location.href='#'" class="itemBtn">
+      <button class="btn">Go Media</button>
+    </div>
+  </main>
+
+  <footer>
+    <small>
+      <p>© 2022 Horn(s)</p>
+    </small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
