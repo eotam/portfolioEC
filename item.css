@@ -1,0 +1,117 @@
+body {
+  background-color: rgb(22, 24, 26);
+  color: rgb(222, 226, 230);
+}
+
+h1 {
+  font-size: 50px;
+  border-top: 0.5px solid rgb(222, 226, 230);
+}
+
+#topImg {
+  display: block;
+  margin: 0 auto 1% auto;
+  max-width: 50%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.btn {
+  width: 25%;
+  height: 18.67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  background-color: rgb(22, 24, 26);
+  border: 0.5px solid;
+  border-color: rgb(222, 226, 230);
+  color: rgb(222, 226, 230);
+  transition: all 0.5s;
+  box-shadow: 2px 2px 0px 0px rgba(222, 226, 230, 0.56);
+  border-radius: 7px;
+  margin: auto 0.3%;
+}
+.btn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+  background-color: rgb(222, 226, 230);
+  color: rgb(22, 24, 26);
+  border: 0.5px solid;
+}
+
+.btns {
+  display: flex;
+  margin-bottom: 1%;
+}
+.btns .iconBtn {
+  width: 7%;
+  height: 18.67px;
+  min-width: 25px;
+  justify-content: end;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-color: rgb(22, 24, 26);
+  border-radius: 7px;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  background-color: rgb(155, 158, 160);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 1px 1px 0px 0px rgba(222, 226, 230, 0.56);
+}
+.btns .iconBtn:hover {
+  background-color: rgb(222, 226, 230);
+  box-shadow: none;
+  transform: translate(1px, 1px);
+}
+.btns .iconBtn#insta {
+  margin-left: auto;
+  margin-right: 0.5%;
+  background-image: url("srcImg/instagram.png");
+  background-size: contain;
+}
+.btns .iconBtn#amazon {
+  background-image: url("srcImg/amazon_logo_icon_145505.png");
+  background-size: contain;
+}
+
+.container-fulid {
+  padding: 2%;
+}
+
+.card {
+  margin: 2%;
+  text-align: center;
+  margin: 2%;
+  color: rgb(22, 24, 26);
+}
+.card .card-body {
+  border-top: 0.5px solid rgb(222, 226, 230);
+  border-radius: 7px;
+}
+.card .card-body .card-title {
+  text-align: center;
+}
+.card .card-body .card-img-top {
+  border-radius: 7px;
+}
+.card .card-body p {
+  margin: 1%;
+}
+.card .card-body a {
+  display: inline-block;
+  width: 30%;
+  height: 15%;
+}
+
+footer {
+  text-align: center;
+  font-size: large;
+  border-top: 0.5px solid rgb(222, 226, 230);
+}
+footer p {
+  margin-bottom: 0;
+}/*# sourceMappingURL=item.css.map */
